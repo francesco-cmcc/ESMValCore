@@ -64,7 +64,7 @@ from ._time import (
     timeseries_filter,
 )
 from ._trend import linear_trend, linear_trend_stderr
-from ._units import convert_units
+from ._units import convert_units, flux_to_total
 from ._volume import (
     depth_integration,
     extract_trajectory,
@@ -135,6 +135,7 @@ __all__ = [
     # 'cross_section': cross_section,
     'detrend',
     'multi_model_statistics',
+    'flux_to_total',
     # Grid-point operations
     'extract_named_regions',
     'depth_integration',
